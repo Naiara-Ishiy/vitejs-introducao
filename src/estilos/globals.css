@@ -4,13 +4,15 @@ body {
   /*place-items: center;*/
   min-width: 320px;
   min-height: 100vh;
+  border: 13px solid red;
+  box-sizing: border-box;
 }
 
 h1 {
   font-size: 28px;
   font-weight: bold;
   line-height: 1.1;
-  margin: 20px;
+  margin: 16px 0;
 }
 /* h2 é usada em homes, nunca usar h1 nelas */
 h2 { 
@@ -24,6 +26,7 @@ h3 {
   font-size: 19px;
   font-weight: bold;
   line-height: 1.1;
+  margin: 6px;
 }
 
 label {
