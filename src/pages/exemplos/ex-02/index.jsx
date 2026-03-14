@@ -1,5 +1,5 @@
 
-import './index.css';
+import styles from './index.module.css';
 
 function Exemplo02() {
 
@@ -15,6 +15,12 @@ function Exemplo02() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo explicabo dicta sequi maiores nam laudantium? Doloremque deserunt voluptates quidem nulla delectus nam illum. Tenetur quisquam placeat consequuntur expedita quasi. 
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat magnam incidunt fugit reprehenderit dolor quidem natus, iste eveniet inventore accusantium rerum culpa. Nisi tempore consequuntur suscipit quia maiores ab. Fugiat!
       </p>
+      <div className={styles.containerBlocos}>
+        <div className={styles.brancoBranco}></div>
+        <div className={styles.brancoCinza}></div>
+        <div className={styles.pretoPreto}></div>
+        <div className={styles.pretoCinza}></div>
+      </div>
     </div>
   )
 }
