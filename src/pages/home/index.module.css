@@ -6,16 +6,16 @@
     /*border: 0.3rem bold #00f;*/
     width: 100%;
     max-width: 1240px;
-    height: 96VH;
+    height: 98vh;
 }
 
 .containerLista {
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     border: 0.3rem solid #f00;
     width: 100%;
     border-radius: 1rem;
     padding: 1rem;
-    height: 45VH;
+    height: 45vh;
     overflow-y: auto;
 }
