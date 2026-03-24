@@ -4,7 +4,7 @@ import styles from './index.module.css';
 function Exemplo02() {
 
   return (
-    <div className='container'>
+    <div className={styles.container}>
       <h1>Aula Introdução Vite JS</h1>      
       <h2>Preparo do projeto</h2>
       <h3>Estilização</h3>
